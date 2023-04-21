@@ -8,3 +8,115 @@ paragraph yellow: #ECB12F
 links blue: #2E71A6
 footer links grey: #454245
 */
+@media screen and (max-width: 780px) {
+  html,
+  body {
+    margin: 0;
+    padding: 0;
+    font-size: 10px;
+  }
+  nav {
+    background-color: #540b51;
+  }
+
+  .logo-part img {
+    width: 15vw;
+  }
+   .logo-part ul {
+    display: none;
+  }
+  .navigation ul {
+    display: none;
+  }
+  .navigation button {
+    background-color: #540b51;
+  }
+  nav {
+    display: flex;
+    justify-content: space-between;
+  }
+  header {
+    background-color: #540b51;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    
+  }
+  header h1 {
+    color: white;
+    font-size: 3.6rem;
+  }
+  header p {
+    color: orange;
+    font-size: 2.3rem;
+  }
+  .google img {
+    width: 3vw;
+    background-color: white;
+  }
+  .google {
+    background-color: blue;
+    display: flex;
+    align-items: center;
+    text-transform: uppercase;
+  }
+  .google span {
+    margin-left: 3vw;
+    color: white;
+    width:50vw;
+  }
+  .email {
+    text-transform: uppercase;
+    width:50vw
+  }
+  .hero-image {
+    width: 70vw;
+  } 
+.logo1{ 
+    width:20vw
+}
+.logo2{
+    width:10vw 
+}
+.logo3{
+    width:10vw 
+}
+.logo4{
+    width:7vw 
+}
+.logo5{
+    width:25vw 
+}
+.logo6{
+    width:15vw 
+}
+.mobile-img{
+    width:65vw
+}
+.mobile2-img{
+    width:50vw
+}
+#section1{
+    background-color:#f3eae2
+}
+#section2{
+    background-color:#f3eae2
+}
+#section3{
+    background-color:#f3eae2
+}
+#section4{
+    background-color:#f3eae2
+}
+#section1 p{
+    font-size: 3vw;
+    text-transform: uppercase;
+}
+#section2  div h2{
+    font-size:2.5rem;
+    
+}
+#section2  div p{
+    font-size:1.8rem; 
+}
